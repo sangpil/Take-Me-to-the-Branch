@@ -11,23 +11,32 @@
     {
       "name": "go-to-current-branch",
       "identifier": "go-to-current-branch",
-      "script": "./go-to-current-branch.js"
+      "script": "./go-to-current-branch.js",
+      "description": "go to current branch .",
+      "icon": "icon.png"
     },
     {
       "name": "go-to-last-commit",
       "identifier": "go-to-last-commit",
-      "script": "./go-to-last-commit.js"
+      "script": "./go-to-last-commit.js",
+      "description": "go to the last commit of Artboard . Symbol Instance, Symbol Master.",
+      "icon": "icon.png"
     },
     {
       "name": "go-to-specific-branch",
       "identifier": "go-to-specific-branch",
-      "script": "./go-to-specific-branch.js"
+      "script": "./go-to-specific-branch.js",
+      "description": "go to specific branch with branch ID.",
+      "icon": "icon.png"
     }
   ],
   "menu": {
     "title": "Take Me to the Branch",
     "items": [
-      "my-command-identifier"
+      "go-to-current-branch",
+      "go-to-last-commit",
+      "-",
+      "go-to-specific-branch"
     ]
   }
 }
