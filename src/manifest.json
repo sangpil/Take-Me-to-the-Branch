@@ -1,0 +1,33 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "my-command",
+      "identifier": "my-command-identifier",
+      "script": "./my-command.js"
+    },
+    {
+      "name": "go-to-current-branch",
+      "identifier": "go-to-current-branch",
+      "script": "./go-to-current-branch.js"
+    },
+    {
+      "name": "go-to-last-commit",
+      "identifier": "go-to-last-commit",
+      "script": "./go-to-last-commit.js"
+    },
+    {
+      "name": "go-to-specific-branch",
+      "identifier": "go-to-specific-branch",
+      "script": "./go-to-specific-branch.js"
+    }
+  ],
+  "menu": {
+    "title": "Take Me to the Branch",
+    "items": [
+      "my-command-identifier"
+    ]
+  }
+}
